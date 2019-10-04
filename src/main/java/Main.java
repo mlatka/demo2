@@ -38,7 +38,7 @@ public class Main {
         FileInputStream serviceAccount =
                 null;
         try {
-            serviceAccount = new FileInputStream("path/to/serviceAccountKey.json");
+            serviceAccount = new FileInputStream("/home/mirek/Downloads/fir-demo1-31c51-firebase-adminsdk-d3516-8aa6315c8e.json");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
